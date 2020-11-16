@@ -11245,6 +11245,12 @@ body {
   padding: 0 80px;
 }
 
+@media (max-width: 576px) {
+  .__cont {
+    padding: 0 10px;
+  }
+}
+
 .__Head {
   text-transform: uppercase;
   font-weight: 100;
@@ -11260,6 +11266,12 @@ body {
           justify-content: center;
 }
 
+@media (max-width: 576px) {
+  .__Head {
+    grid-auto-flow: row;
+  }
+}
+
 .__Head ._ico {
   height: 60px;
   width: 120px;
@@ -11267,7 +11279,8 @@ body {
 }
 
 ._card {
-  margin-top: 10px;
+  margin-top: 50px;
+  overflow: hidden;
 }
 
 ._card ._head > ._menu {
