@@ -11228,139 +11228,117 @@ textarea.form-control-lg {
   }
 }
 body {
-  background: #f5f5f5;
+  background: #feed00ff;
   margin: 0;
 }
 
-.Cont {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-.Cont h1 {
-  text-align: center;
-  margin: 30px 0;
-  text-transform: uppercase;
-  font-weight: 900;
-  font-family: Andalus;
-  font-size: 60px;
-}
-
-.Cont ._card {
-  -webkit-transition: .3s;
-  transition: .3s;
+._arrow {
   display: -ms-grid;
   display: grid;
+  width: 100%;
   place-items: center;
-  cursor: pointer;
+  fill: white;
+  height: 60px;
 }
 
-.Cont ._card:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
-  -webkit-transition: .3s;
-  transition: .3s;
+.__cont {
+  padding: 0 80px;
 }
 
-.Cont ._card ._card-img {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  background-size: cover;
-  border: 5px solid white;
-  -webkit-box-shadow: 20px 20px 60px #d0d0d0,  -20px -20px 60px #ffffff;
-          box-shadow: 20px 20px 60px #d0d0d0,  -20px -20px 60px #ffffff;
-}
-
-.Cont ._card ._upperHead {
+.__Head {
   text-transform: uppercase;
-  background: #241d1d;
-  border-radius: 30px;
-  padding: 3px 8px;
-  font-size: 10px;
-  text-align: center;
-  color: white;
-  z-index: 1;
-  border: solid white 2px;
-  -webkit-transform: translate(-54px, 44px);
-          transform: translate(-54px, 44px);
-}
-
-.Cont ._card ._upperHead._offer {
-  background: #700101;
-}
-
-.Cont ._card .Content {
-  background: linear-gradient(145deg, #dddddd, #ffffff);
-  -webkit-box-shadow: 20px 20px 60px #d0d0d0,  -20px -20px 60px #ffffff;
-          box-shadow: 20px 20px 60px #d0d0d0,  -20px -20px 60px #ffffff;
-  width: 200px;
-  text-align: center;
-  padding: 20px;
-  padding-top: 95px;
-  border-radius: 5px;
-  z-index: -1;
-  -webkit-transform: translateY(-75px);
-          transform: translateY(-75px);
-}
-
-.Cont ._card .Content .Org {
-  color: gray;
-  margin-top: 20px;
-  border-top: 1px solid #dfdddd;
-}
-
-.Cont ._card .Content .Price {
-  color: gray;
-}
-
-.Cont ._card .Content .Price > span {
-  background: #192b01;
-  color: white;
-  font-size: 15px;
-  border-radius: 3px;
-  padding: 0 5px;
   font-weight: 100;
-}
-
-.Cont .row {
+  text-align: center;
+  letter-spacing: 8px;
+  display: -ms-grid;
+  display: grid;
+  height: 80px;
+  place-items: center;
+  grid-auto-flow: column;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
 }
 
-.Cont > .row > div {
-  padding: -10px 30px;
+.__Head ._ico {
+  height: 60px;
+  width: 120px;
+  background: green;
 }
 
-.Cont ._details {
-  margin-top: 30px;
-  text-align: center;
-  color: gray;
-  fill: #181616;
-  display: -ms-grid;
-  display: grid;
-  place-items: center;
+._card {
+  margin-top: 10px;
 }
 
-.Cont ._details > div {
-  background: white;
-  -webkit-box-shadow: 20px 20px 60px #d0d0d0,  -20px -20px 60px #ffffff;
-          box-shadow: 20px 20px 60px #d0d0d0,  -20px -20px 60px #ffffff;
-  width: -webkit-max-content;
-  width: -moz-max-content;
-  width: max-content;
-  padding: 5px 10px;
-  -webkit-transition: .3s;
-  transition: .3s;
-  cursor: pointer;
-}
-
-.Cont ._details > div:hover {
-  background: #2f3629;
+._card ._head > ._menu {
+  text-transform: uppercase;
+  background: #2b2a28ff;
   color: white;
-  fill: white;
-  -webkit-transition: .3s;
-  transition: .3s;
+  text-align: center;
+}
+
+._card ._head > ._menu._red {
+  background: #e31e25ff;
+  color: #f6ac0bff;
+}
+
+._card .card-img-top {
+  border-radius: 0;
+}
+
+._card ._body {
+  margin-top: 3px;
+}
+
+._card ._body ._liteY {
+  height: 20px;
+  font-size: 12px;
+  padding: 2px 5px;
+  font-weight: 600;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #f0811fff;
+}
+
+._card ._body ._liteY:nth-child(1) {
+  background: #fefabaff;
+}
+
+._card ._body ._liteY:nth-child(2) {
+  background: #fbd55aff;
+}
+
+._card ._body ._liteY:nth-child(3) {
+  background: #fefabaff;
+}
+
+._card ._body ._liteY:nth-child(4) {
+  background: #fbd55aff;
+}
+
+._card ._body ._liteY:nth-child(5) {
+  background: #fff572ff;
+  height: 60px;
+}
+
+._details {
+  margin-bottom: 80px;
+  text-align: center;
+}
+
+._details ._greenBox {
+  height: 20px;
+  width: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  background: green;
+}
+
+footer {
+  height: 50px;
+  background: #2b2a28ff;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
 }
 /*# sourceMappingURL=main.css.map */
